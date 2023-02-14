@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./App.css";
+import "../src/images/elephant.jpg";
 
 export function App(): JSX.Element {
     return (
@@ -9,18 +10,14 @@ export function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript: Shreya Pamulapati
             </header>
             <h2> Hello World </h2>;
-            <img
-                src="../University of Delaware/elephant.jpg"
-                alt="A picture of an elephant."
-            />
+            <img src="../images/elephant.jpg" alt="A picture of an elephant" />
             <ol>
                 <li>Elephants</li>
                 <li>Food</li>
                 <li>Friends</li>
             </ol>
-            <Button>Log Hello World</Button>
             <Button onClick={() => console.log("Hello World!")}>
-                Click Me
+                Log Hello World
             </Button>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
