@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./App.css";
-import elephant from "../images/elephant.jpg";
+import elephant from "./src/images/elephant.jpg";
 
 export function App(): JSX.Element {
     return (
@@ -10,7 +10,7 @@ export function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript: Shreya Pamulapati
             </header>
             <h2> Hello World </h2>;
-            <img src="elephant" alt="My Favorite Animal" />
+            <img src={elephant} alt="My Favorite Animal" />
             <ul>
                 <li>Elephants</li>
                 <li>Food</li>
