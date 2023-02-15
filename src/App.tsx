@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./App.css";
-import "../images/elephant.jpg";
+import elephant from "../images/elephant.jpg";
 
 export function App(): JSX.Element {
     return (
@@ -10,12 +10,12 @@ export function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript: Shreya Pamulapati
             </header>
             <h2> Hello World </h2>;
-            <img src="../images/elephant.jpg" alt="A picture of an elephant" />
-            <ol>
+            <img src="elephant" alt="My Favorite Animal" />
+            <ul>
                 <li>Elephants</li>
                 <li>Food</li>
                 <li>Friends</li>
-            </ol>
+            </ul>
             <Button onClick={() => console.log("Hello World!")}>
                 Log Hello World
             </Button>
@@ -29,7 +29,7 @@ export function App(): JSX.Element {
                         <div
                             style={{
                                 width: 100,
-                                height: 200,
+                                height: 50,
                                 backgroundColor: "red"
                             }}
                         ></div>
@@ -38,7 +38,7 @@ export function App(): JSX.Element {
                         <div
                             style={{
                                 width: 100,
-                                height: 200,
+                                height: 50,
                                 backgroundColor: "red"
                             }}
                         ></div>
