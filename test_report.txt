@@ -5,36 +5,18 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-FAIL src/HtmlCss.test.tsx
-  ● Some Bootstrap Elements are added › Clicking the bootstrap button logs 'Hello World!'
-
-    expect(jest.fn()).toHaveBeenCalledWith(...expected)
-
-    Expected: "Hello World!"
-
-    Number of calls: 0
-
-      56 |         const button = screen.getByRole("button", { name: /Log Hello World/i });
-      57 |         userEvent.click(button);
-    > 58 |         expect(consoleSpy).toHaveBeenCalledWith("Hello World!");
-         |                            ^
-      59 |     });
-      60 | });
-      61 |
-
-      at Object.<anonymous> (src/HtmlCss.test.tsx:58:28)
-
+PASS src/HtmlCss.test.tsx
 PASS src/text.test.tsx
 PASS src/App.test.tsx
 ----------|---------|----------|---------|---------|-------------------
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
-All files |      50 |      100 |      50 |      50 |                   
- App.tsx  |      50 |      100 |      50 |      50 | 22                
+All files |     100 |      100 |     100 |     100 |                   
+ App.tsx  |     100 |      100 |     100 |     100 |                   
 ----------|---------|----------|---------|---------|-------------------
 
-Test Suites: 1 failed, 2 passed, 3 total
-Tests:       1 failed, 8 passed, 9 total
+Test Suites: 3 passed, 3 total
+Tests:       9 passed, 9 total
 Snapshots:   0 total
-Time:        2.712 s
+Time:        2.714 s
 Ran all test suites.
