@@ -112,9 +112,11 @@ export function renameQuestion(question: Question, newName: string): Question {
 
 export function publishQuestion(question: Question): Question {
     const newQuestion = { ...question };
-    newQuestion.published === true
-        ? (newQuestion.published = false)
-        : (newQuestion.published = true);
+    if (question.published) {
+        newQuestion.published = false;
+    } else {
+        newQuestion.published = true;
+    }
     return newQuestion;
 }
 
