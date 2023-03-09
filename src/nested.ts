@@ -148,7 +148,7 @@ export function publishAll(questions: Question[]): Question[] {
 
 /***
  * Consumes an array of Questions and produces whether or not all the questions
- * are the same type. They can be any type, as long as they are all the SAME type.
+ * are the same type. Can be any type, as long as they are all the SAME type.
  */
 export function sameType(questions: Question[]): boolean {
     const same = questions.filter(
