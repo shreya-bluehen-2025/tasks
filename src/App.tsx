@@ -7,6 +7,8 @@ import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
 import { ChangeType } from "./components/ChangeType";
 
+//This is the App page
+
 function App(): JSX.Element {
     return (
         <div className="App">
