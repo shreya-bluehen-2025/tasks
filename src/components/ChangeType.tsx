@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { QuestionType } from "../interfaces/question";
 
-export function changeType(): JSX.Element {
+export function ChangeType(): JSX.Element {
     const [type, setType] = useState<QuestionType>("short_answer_question");
     function flip(): void {
         if (type === "short_answer_question") {
