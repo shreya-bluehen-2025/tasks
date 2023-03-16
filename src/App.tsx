@@ -11,6 +11,8 @@ import { ChooseTeam } from "./bad-components/ChooseTeam";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 
+//Added bad components to app
+
 function App(): JSX.Element {
     return (
         <div className="App">
