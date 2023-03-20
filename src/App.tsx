@@ -10,6 +10,7 @@ import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
+import { ChangeColor } from "./form-components/ChangeColor";
 import { CheckAnswer } from "./form-components/CheckAnswer";
 
 function App(): JSX.Element {
