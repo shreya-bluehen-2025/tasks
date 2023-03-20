@@ -12,6 +12,7 @@ import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChangeColor } from "./form-components/ChangeColor";
 import { CheckAnswer } from "./form-components/CheckAnswer";
+import { EditMode } from "./form-components/EditMode";
 
 function App(): JSX.Element {
     return (
